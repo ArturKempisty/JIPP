@@ -1,6 +1,6 @@
 # Utwórz słownik filmów. Niech  kluczem będzie nazwa filmu, a parą wartości dwie liczby: kryteria wiekowe oraz liczba dostępnych biletów
 
-movies = {"Bee Movie":[4,3], "Batman":[6,3], "Avengers":[13,7], "":[10,4]}
+movies = {"Bee Movie":[4,3], "Batman":[6,3], "Avengers":[13,7], "Spongebob-Film":[10,4]}
 
 # Utwórz pętlę, która będzie działać w nieskończoność
 
@@ -36,4 +36,5 @@ while True:
         else:
             print("Za niski wiek.")
     else:
+
         print("Film nie jest dostępny.")
